@@ -1,0 +1,7 @@
+version: '3.4'
+
+services:
+  webapp:
+    image: haleyjason/file-upload-demo
+  clamav-server:
+    image: mkodockx/docker-clamav
